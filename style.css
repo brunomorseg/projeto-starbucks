@@ -503,15 +503,34 @@ header {
     div.div-logo {
         margin-left: -40px;
     }
-    div.div-menu-input {
-        margin-right: -30px;
+
+    div.div-logo img {
+        margin-right: 90px;
     }
+
+    div.div-menu-input {
+        margin-right: -10px;
+    }
+    div.div-menu-menu{
+        margin-right: 60px;
+        margin-left: 25px;
+    }
+
+}
+
+@media (max-width:425px) {
+    div.div-menu-menu {
+        margin-right: 40px;
+    }
+
+
 
 }
 
 @media (max-width:375px) {
     div.div-menu-input {
         margin-right: 40px;
+        
     }
 
     .div-logo img {
