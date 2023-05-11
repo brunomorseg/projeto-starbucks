@@ -511,7 +511,7 @@ header {
 
 @media (max-width:375px) {
     div.div-menu-input {
-        margin-right: 26px;
+        margin-right: 40px;
     }
 
     .div-logo img {
@@ -519,7 +519,7 @@ header {
     }
     div.div-menu-menu {
      margin-right: 60px;  
-     margin-left: -50px;
+     margin-left: -25px;
     }
     .section-img img {
         width: 340px;
