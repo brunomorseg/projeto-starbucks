@@ -527,7 +527,7 @@ header {
 
 }
 
-@media (max-width:375px) {
+@media (max-width:395px) {
     div.div-menu-input {
         margin-right: 40px;
         
@@ -537,11 +537,41 @@ header {
         margin-right:45px;
     }
     div.div-menu-menu {
-     margin-right: 60px;  
+     margin-right: 20px;  
      margin-left: -25px;
     }
     .section-img img {
         width: 340px;
         height: 400px;
+    }
+    div.div-logo img {
+        margin-right: 70px;
+    }
+    .first-container-star {
+        width: 275px;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #star-Happy {
+        font-size: 60px;
+    }
+
+    .section-img img {
+        width: 250px;
+        height: 295px;
+    }
+}
+
+@media(max-width:330px) {
+    div.div-logo img {
+        margin-right: 30px;
+    }
+    .container {
+        width: auto;
+    }
+    .container button {
+        margin-bottom: 20px;
     }
 }
